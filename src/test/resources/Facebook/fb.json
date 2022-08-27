@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "valid user name and invalid passsword",
+        "description": "",
+        "id": "verify-the-login-functionality-in-fb-application;valid-user-name-and-invalid-passsword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11921532700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user in facebook application",
+            "match": {
+              "location": "Step.user_in_facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 241535100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter the valid username and password",
+            "match": {
+              "location": "Step.user_enter_the_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100319900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click login button",
+            "match": {
+              "location": "Step.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Error page is displayed",
+            "match": {
+              "location": "Step.error_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verify the login functionality in fb application",
+    "description": "",
+    "id": "verify-the-login-functionality-in-fb-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Facebook.feature",
+    "tags": []
+  }
+]
