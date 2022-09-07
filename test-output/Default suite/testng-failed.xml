@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="LoginTestCase.bothIncorrect">
+      <class name="extendedreport.Report">
         <methods>
-          <include name="loginWithBothIncorrect"/>
+          <include name="tearDown"/>
+          <include name="skipTest"/>
+          <include name="browserLaunch"/>
         </methods>
-      </class> <!-- LoginTestCase.bothIncorrect -->
+      </class> <!-- extendedreport.Report -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
